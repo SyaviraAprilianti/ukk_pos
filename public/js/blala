@@ -1,0 +1,6 @@
+//  $(window).load(function () { 
+//             $(".cekbox").on("click", function() {
+//                 $(this).attr("data-harga");   
+//                 console.log($("#jumlah").val());
+//             });
+//         });

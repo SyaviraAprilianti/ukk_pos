@@ -1,0 +1,69 @@
+ <!-- Area Chart -->
+        {{-- <div class="col-xl-6 col-lg-7">
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 ">
+                    <h6 class=" font-weight-bold text-primary">Cashier</h6>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    <div class="row card-group">
+                        @foreach($itemlibrary as $il)
+                            <div class="col-3 mb-4 item-cashier" data-id="{{ $il->id }}"
+                                data-name="{{ $il->name}}"
+                                data-price="{{ $il->pricing }}"
+                                data-image="{{ $il->gambar }}">
+                                <div style="border: none;" class="card text-center">
+                                    <img style="border-radius: 15px !important; width: 90px;"
+                                        class="rounded mx-auto d-block"
+                                        src="gambar/{{ $il->gambar}}"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body p-2">
+                                        <h5 class="h6 card-title font-weight-bold text-dark">
+                                            {{ $il['name'] }}</h5>
+                                        <p style="font-size: 12px;" class="card-text text-dark">Rp.
+                                            {{ $il['pricing'] }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </div> --}}
+
+        <!-- Pie Chart -->
+        {{-- <div class="col-xl-6 col-lg-5">
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Curent Order</h6>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    <div style="height: 300px;" id="current-order" class="overflow-auto">
+
+
+                    </div>
+                    <hr>
+
+                        <div class="row">
+                            <p class="col-8">Subtotal : </p>
+                            <p class="col-4 text-right"> Rp 15000 </p>
+                        </div>
+
+                        <div class="row">
+                            <p class="col-8">Tax : </p>
+                            <p class="col-4 text-right"> - </p>
+                        </div>
+
+                        <hr>
+                        <div class="row">
+                            <p class="col-8 h4">Total : </p>
+                            <p class="col-4 text-right"> Rp 15000 </p>
+                        </div>
+                        <button type="button" id="pay" class="btn btn-success btn-md btn-block mt-3">Pay</button>
+                </div>
+            </div>
+        </div>
+    </div> --}}
